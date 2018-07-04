@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 40px;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: lower-latin; 
+}
+
+p span  { 
+    color: orange;
+    text-decoration: underline;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+p:first-letter {
+    font-size: 25px;
+    font-weight: bold;
+    margin: .2em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    background: #555555;
+    color: #ffffff;
+    border: 1px outset #000000;
+    padding: .1em .5em;  
+}
+
+a:hover {
+    background: #ffffff;
+    color: #555555;
+}
+
